@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Pro</title>
+    <link rel="stylesheet" href="Weather.css" />
+  </head>
+  <body>
+
+    <div class="card">
+        <h1>☁️ Weather Pro</h1>
+        
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name...">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <p id="error-message" class="hidden">City not found! ❌</p>
+
+        <div id="weather-display" class="hidden">
+            <h2 id="city-name">New York</h2>
+            <h1 id="temperature">22°C</h1>
+            <p id="description">Scattered Clouds</p>
+            
+            <div class="details">
+                <p>Humidity: <span id="humidity">50%</span></p>
+                <p>Wind: <span id="wind-speed">10km/h</span></p>
+            </div>
+        </div>
+    </div>   
+
+
+
+    <script src="day7_WeatherDashboard.js"></script>
+  </body>
+</html>

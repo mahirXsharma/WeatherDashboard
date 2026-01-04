@@ -1,0 +1,52 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: cursive, sans-serif; }
+
+body {
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.search-box { display: flex; gap: 10px; margin: 20px 0; }
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #5b548a;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover { background: #4a4375; }
+
+/* Dynamic Content Styling */
+#weather-display { margin-top: 20px; }
+#temperature { font-size: 4rem; font-weight: bold; color: #333; }
+#description { font-size: 1.2rem; color: #666; margin-bottom: 20px; text-transform: capitalize; }
+
+.details { display: flex; justify-content: space-around; font-size: 0.9rem; color: #555; }
+
+/* Utility Class to Hide Elements */
+.hidden { display: none; }
+#error-message { color: red; font-weight: bold; margin-top: 10px; }
