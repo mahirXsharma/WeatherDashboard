@@ -27,8 +27,6 @@ async function checkWeather(city) {
     console.log("Searching for : " + city);
     const response = await fetch(apiURL + city + "&appid=" + apiKEY);
     const data = await response.json();
-    console.log(response);
-    console.log(data);
 
     if (response.status == 200) {
       const { name } = data;
