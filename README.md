@@ -5,6 +5,8 @@ A clean and responsive weather application that fetches real-time weather data f
 **🔗 Live Demo:** - https://mahirxsharma.github.io/WeatherDashboard/
 
 ## 📸 Screenshots
+<img width="1467" height="947" alt="image" src="https://github.com/user-attachments/assets/b620de8e-257e-498a-ae20-b0a7e1960de4" />
+
    
 
 
@@ -23,32 +25,18 @@ A clean and responsive weather application that fetches real-time weather data f
 * **JavaScript (ES6+)** - Logic, DOM Manipulation, Fetch API
 * **OpenWeatherMap API** - Weather Data Provider
 
-## 💻 How to Run Locally
 
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/YOUR-USERNAME/weather-dashboard.git](https://github.com/YOUR-USERNAME/weather-dashboard.git)
-    ```
-
-2.  **Navigate to the project folder**
-    ```bash
-    cd weather-dashboard
-    ```
-
-3.  **Open `index.html`**
-    * Open the file directly in your browser.
-    * OR use **Live Server** in VS Code for the best experience.
 
 ## 🔑 API Key Note
 This project uses the OpenWeatherMap API. If you clone this, you will need your own API key.
 1.  Sign up at [OpenWeatherMap](https://openweathermap.org/).
 2.  Generate a free API Key.
-3.  Replace the API key in `script.js` (or `index.js`) with your own.
+3.  Replace the API key in `WeatherDashboard.js` (or `index.js`) with your own.
 
 ## 🤝 Connect
 Created by **Mahir Sharma**
-* [LinkedIn Profile]([Your LinkedIn URL])
-* [GitHub Profile]([Your GitHub URL])
+* [LinkedIn Profile] - https://www.linkedin.com/in/mahir-sharma-73b528246/
+* [GitHub Profile] - https://github.com/mahirXsharma
 
 ---
 *If you like this project, give it a ⭐ on GitHub!*
