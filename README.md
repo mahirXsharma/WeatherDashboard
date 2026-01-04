@@ -5,11 +5,7 @@ A clean and responsive weather application that fetches real-time weather data f
 **🔗 Live Demo:** - https://mahirxsharma.github.io/WeatherDashboard/
 
 ## 📸 Screenshots
-<img width="1467" height="947" alt="image" src="https://github.com/user-attachments/assets/b620de8e-257e-498a-ae20-b0a7e1960de4" />
-
-   
-
-
+<img width="773" height="748" alt="Screenshot 2026-01-04 212822" src="https://github.com/user-attachments/assets/4fd6c4cd-fb2c-4670-bc15-2220187dc8ba" />
 
 ## 🚀 Features
 
@@ -24,8 +20,6 @@ A clean and responsive weather application that fetches real-time weather data f
 * **CSS3** - Styling (Responsive Layouts)
 * **JavaScript (ES6+)** - Logic, DOM Manipulation, Fetch API
 * **OpenWeatherMap API** - Weather Data Provider
-
-
 
 ## 🔑 API Key Note
 This project uses the OpenWeatherMap API. If you clone this, you will need your own API key.
